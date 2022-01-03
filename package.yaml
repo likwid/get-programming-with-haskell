@@ -1,0 +1,43 @@
+name:                get-programming-in-haskell
+version:             0.1.0.0
+github:              "likwid/get-programming-in-haskell"
+license:             BSD3
+author:              "Jeff Gonzalez"
+maintainer:          "likwid at gmail"
+copyright:           "2021 Jeff Gonzalez"
+
+extra-source-files:
+    - README.md
+    - stack.yaml
+    - package.yaml
+
+description:         Please see the README on GitHub at <https://github.com/likwid/get-programming-in-haskell#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+
+  #data-files:
+  #- data/*.*
+  #- data/texts/*.*
+
+executables:
+  hello:
+    main: intro/hello.hs
+    other-modules: []
+
+ghc-options:
+- -Wall
+- -Werror
+- -Wcompat
+- -Widentities
+- -Wincomplete-uni-patterns
+- -Wincomplete-record-updates
+- -Wno-unused-top-binds
+- -Wno-orphans
+
+# tests:
+
+library:
+  source-dirs: empty
+  exposed-modules: Empty
+  other-modules: []
