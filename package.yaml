@@ -11,7 +11,8 @@ extra-source-files:
     - stack.yaml
     - package.yaml
 
-description:         Please see the README on GitHub at <https://github.com/likwid/get-programming-in-haskell#readme>
+description: |
+  Please see the README on GitHub at <https://github.com/likwid/get-programming-in-haskell#readme>
 
 dependencies:
 - base >= 4.7 && < 5
@@ -23,6 +24,9 @@ dependencies:
 executables:
   hello:
     main: intro/hello.hs
+    other-modules: []
+  lesson2:
+    main: lesson2/Main.hs
     other-modules: []
 
 ghc-options:
