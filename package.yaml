@@ -7,9 +7,9 @@ maintainer:          "likwid at gmail"
 copyright:           "2021 Jeff Gonzalez"
 
 extra-source-files:
-    - README.md
-    - stack.yaml
-    - package.yaml
+- README.md
+- stack.yaml
+- package.yaml
 
 description: |
   Please see the README on GitHub at <https://github.com/likwid/get-programming-in-haskell#readme>
